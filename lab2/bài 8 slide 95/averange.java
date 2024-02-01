@@ -13,6 +13,6 @@ public class averange {
             tong+=a[i];
         }
         avg=(double)tong/n;
-        System.out.print("vay average cua day vua nhap la: %.3f",avg);
+        System.out.format("vay average cua day vua nhap la: %.3f",avg);
     }
 }

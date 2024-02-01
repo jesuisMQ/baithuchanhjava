@@ -7,13 +7,13 @@ class tinhtongcacso{
        
         System.out.println("nhap cac so nguyen");
         while(sum<=100){   
-            System.out.println("a"+"["+i+"]"+"=");
+            System.out.print("a"+"["+i+"]"+"=");
             i++;
             a = sc.nextInt();
             sum += a;
             str=str+a+"+";
         }
-        str = str.substring(0,(str.length()-2));
+        str = str.substring(0,(str.length()-1));
         System.out.print(str + "="+sum);
     }
 }
