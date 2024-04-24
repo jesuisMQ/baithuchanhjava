@@ -10,14 +10,14 @@ public String ten;
     private int loaichucvu;
    
     
-    public  nhanvienfulltime(String ten, int ngaylamthem) {
+    public nhanvienfulltime(String ten, int ngaylamthem) {
        this.ten=ten;
        this.ngaylamthem=ngaylamthem;
        
    
     }
     public void setloaichucvu(int loaichucvu){
-      
+      this.loaichucvu=loaichucvu;
 
     }
        
