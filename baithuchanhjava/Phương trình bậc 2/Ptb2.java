@@ -4,7 +4,7 @@ public class Ptb2 {
        Scanner scanner = new Scanner(System.in);
        float a,b,c;
        System.out.println("nhap he so bac 2:");
-       scanner.nextFloat();
+       a=scanner.nextFloat();
        System.out.print("nhap he so bac 1:");
        b= scanner.nextFloat();
        System.out.print("nhap he so bac 0:");
