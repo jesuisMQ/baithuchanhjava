@@ -4,12 +4,8 @@ public class nhanvien {
 protected  String ten;
 
 protected long luong;
-public  nhanvien(){
 
-}
-public  nhanvien(String ten){
-    this.ten=ten;
-}
+
 protected String loainhanvien(){
     return "";
 }
