@@ -6,7 +6,7 @@ Scanner sc = new Scanner(System.in);
 
  public void nhapthongtin(){
    
-   nhapthongtin();
+   super.nhapthongtin();
     gender= sc.nextLine();
  }
 public static void main(String[] args) {
