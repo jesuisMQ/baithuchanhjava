@@ -19,12 +19,14 @@ public class HashAdd {
         System.out.println(" nhap phan tu can them: ");
         number = sc.nextInt();
         if (!hashSetIntegers.contains(number)) {
+            hashSetIntegers.add(number);
             System.out.println(" them thanh cong! ");
-            System.out.println(hashSetIntegers);
             System.out.println(" cac phan tu trong hashSetInteger sau khi them: ");
+            System.out.println(hashSetIntegers);
+            
 
-        } else {
+        } else 
             System.out.println(" phan tu " + number + "da ton tai! ");
-        }
+        
     }
 }

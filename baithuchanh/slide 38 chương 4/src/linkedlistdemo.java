@@ -10,7 +10,7 @@ public class linkedlistdemo {
         list.add("PHP");
         list.add("Java");
         System.out.println(" vi du su dung phuong thuc addAll() ");
-        System.out.println("");
+        System.out.println();
         LinkedList<String> listA = new LinkedList<String>();
         listA.addAll(list);
         System.out.println("listA: ");
