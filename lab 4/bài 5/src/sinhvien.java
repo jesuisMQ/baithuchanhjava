@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.Map;
@@ -37,13 +38,15 @@ for (String key :keyset){
     System.out.println(setdssvcantim);
     System.out.println("nhap msv can tim:");
     String MSV = sc.nextLine();
+    sc.close();
+    Set<String> tenvalopSet = new HashSet<>();
+    
     for (String key :keyset){
         if(key.equals(MSV)){
-            dssvcantim.put(key,dsthongtinsv.get(key));
+            tenvalopSet.add(dsthongtinsv.get(key));
         }
       }
-      Set<Map.Entry<String,String>> settenvalop = dssvcantim.entrySet();
     System.out.println("thong tin sinh vien :");
-    System.out.println(settenvalop);
+    System.out.println(tenvalopSet);
 }
 }
