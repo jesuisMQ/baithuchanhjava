@@ -16,7 +16,7 @@ public class linkedhashmap {
     public static void show(LinkedHashMap<Integer,String> lhmap){
         Set<Integer> keyset = lhmap.keySet();
         for(Integer key : keyset){
-            System.out.println("key"+ lhmap.get(key));
+            System.out.println(key+ "  "+ lhmap.get(key));
         }
 
     }
