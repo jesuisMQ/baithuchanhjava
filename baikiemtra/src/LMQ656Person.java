@@ -6,7 +6,7 @@ public class LMQ656Person {
    public double luong;
    Scanner sc =new Scanner(System.in);
   public void nhapthongtin(){
-    System.out.print("ten la");
+    System.out.print("ten la:");
     name=sc.nextLine();
     System.out.print("tuoi la:");
     age= sc.nextInt();
@@ -24,7 +24,7 @@ public class LMQ656Person {
       arrayList =new ArrayList<>(n);
     for(int i=0; i<n; i++){
    LMQ656Person st1 = new LMQ656Person();
-   System.out.print("nhap phan tu thu"+(i+1));
+   System.out.print("nhap phan tu thu"+(i+1)+":");
     st1.nhapthongtin();
     arrayList.add(st1);
   }
